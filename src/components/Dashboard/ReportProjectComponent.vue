@@ -29,5 +29,5 @@
 
 
 <script lang="ts" setup>
-import hotelImage from '@/assets/images/hotel-fleur-de-sel-1.jpg'
+import hotelImage from '../../assets/images/hotel-fleur-de-sel-1.jpg'
 </script>

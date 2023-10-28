@@ -2,41 +2,49 @@ export const menuTop = [
     {
         icon: "fa-solid fa-user",
         title:'Tableau de bord',
-        router:'/dashboard'
+        router:'/',
+        isActive:true
     },
     {
         icon: "fa-regular fa-envelope-open",
         title:'Projets',
-        router:'/project'
+        router:'/project',
+        isActive:false
     },
     {
         icon: "fa-solid fa-layer-group",
         title:'Rapport',
-        router:'/report'
+        router:'/report',
+        isActive:false
     },
     {
         icon: "fa-solid fa-user",
         title:'Documents',
-        router:'/file'
+        router:'/file',
+        isActive:false
     },
     {
         icon: " fa-regular fa-envelope",
         title:'Messagerie',
-        router:'/message'
+        router:'/message',
+        isActive:false
     },
     {
         icon: "fa-solid fa-id-card",
         title:'Paiement',
-        router:'/payment'
+        router:'/payment',
+        isActive:false
     },{
         icon: "fa-solid fa-user",
         title:'Clients',
-        router:'/customer'
+        router:'/customer',
+        isActive:false
     },
     {
         icon: "fa-solid fa-phone",
         title:'Contacts',
-        router:'/contacts'
+        router:'/contacts',
+        isActive:false
     }
 ]
 
@@ -44,12 +52,14 @@ export const menuBottom = [
     {
         icon: "fa-solid fa-gear",
         title:'Paramètres',
-        router:'/setting'
+        router:'/setting',
+        isActive:false
     },
     {
         icon: "fa-solid fa-right-from-bracket",
         title:'Déconnexion',
-        router:'/logout'
+        router:'/logout',
+        isActive:false
     }
   
 ]
