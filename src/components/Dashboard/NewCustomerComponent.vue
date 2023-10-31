@@ -9,7 +9,7 @@
                 <div class="title">
                     <h4 class="text-2xl font-bold">Nouveau Client</h4>
                 </div>
-                <div class="notice max-w-[215px]">
+                <div class="notice max-w-[230px]">
                         <p class="text-gray-400 font-bold">Ajouter un nouveau client qui a déjà signé l'accord de projet avec vous</p>
                  </div> 
             </div>

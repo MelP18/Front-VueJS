@@ -9,7 +9,7 @@
                 <div class="title">
                     <h4 class="text-2xl font-bold">Documents</h4>
                 </div>
-                <div class="notice max-w-[215px]">
+                <div class="notice max-w-[230px]">
                         <p class="text-gray-400 font-bold">Consulter les derniers documents chargés par vos clients</p>
                  </div> 
             </div>
@@ -17,6 +17,3 @@
     </div>
 </template>
 
-<script lang="ts" setup>
-    import { RouterLink } from 'vue-router';
-</script>

@@ -20,7 +20,7 @@ export const menuTop = [
     {
         icon: "fa-solid fa-user",
         title:'Documents',
-        router:'/file',
+        router:'/document',
         isActive:false
     },
     {

@@ -12,7 +12,7 @@
                             <div v-for="element in menuTop" class="menu__list__item
                             flex flex-col justify-center items-center border-r"
                                 v-bind:class="element.isActive ? 'border-r-[#01A4AE]' : 'border-white'"
-                                @click="isActive(element)">
+                                @click="">
                                 <RouterLink :to="element.router"
                                     class="block w-full flex flex-col justify-center items-center gap-2 py-2.5">
                                     <i :class="element.icon"></i>
@@ -41,15 +41,14 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import type { Menu } from '../../Types/menu'
 
 import { menuTop, menuBottom } from '../../menus/menuLayoutHome'
 
 
-const isActive = (element) => {
+/* const isActive = (element) => {
   
    element.isActive =!element.isActive;
    console.log('ok');
     
-};
+}; */
 </script>

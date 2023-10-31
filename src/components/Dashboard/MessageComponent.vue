@@ -12,9 +12,9 @@
                 <div class="notice ">
                         <p class="text-gray-400 font-bold">Votre Boîte de messagerie est vide</p>
                  </div> 
-                 <div class="write__msg max-w-[200px]">
+                 <div class="write__msg">
                         <RouterLink to="" 
-                        class="flex items-center gap-3 bg-[#C3EFF0] p-1.5 rounded-lg" >
+                        class="flex max-w-[220px] bg-[#C3EFF0] items-center gap-2  p-1.5 rounded-lg" >
                             <p class="px-2 text-[#01A4AE] font-bold">Composer votre message</p>
                             <i class="fa-regular fa-pen-to-square text-2xl text-[#01A4AE]"></i>
                         </RouterLink>
